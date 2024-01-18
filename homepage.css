@@ -19,8 +19,39 @@ gap: 20px;
 margin-left: 850px;
 margin-top: 20px;
 
+}
+
+.technical-support-btn{
+    background-color: #212529;
+    padding: 50px;
+    vertical-align: middle;
+}
+
+.technical-support-text-btn{
+    padding: 10px 16px;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    background-color:#0077b3;
+   
+}
+   
+ 
+
+
+section{
+    border-top: 5px solid #0077b3;
+    background-color: #0088cc;
+    margin-bottom: 40px;
+
+
 
 }
+
+ul{
+    list-style: none;
+}
+
 
 
 #home .map-text{
@@ -32,3 +63,19 @@ gap: 10px;
     padding: 0;
     margin: 0;
 }
+
+.section-picture{
+    display: flex;
+    gap: 20px;
+   margin: 30px;
+  
+   color: white;
+  
+}
+
+
+ .article-pictures{
+    display: flex;
+    gap: 30px;
+}
+
