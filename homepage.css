@@ -188,23 +188,45 @@ font-family: "Open Sans", Arial, sans-serif;
 position: absolute;
 top: 0;
 left: 200px;
-   
-
-
-
-    
-
-
 }
 
+
+.article-btn{
+border-radius: 7px;
+   float: right; 
+   padding: 2px;
+   width: 100px;
+   background-color:#0088cc;
+   color: #FFF;
 }
+
+.article-border{
+
+    border-bottom: 1px solid gray;
+}
+
+footer::before{
+    content: "";
+  border-right: 10px solid #005580;
+  border-top: 16px solid transparent;
+  display: block;
+  width: 7px;
+  left: 100px;
+  top: -19px;
+  height: 0;
+  
+  
+  position: absolute;
+  
+  }
 
 footer{
    background-color:#212529 ;
 color:white;
-padding:40px;
+padding:60px;
 margin-top: 40px;
 border-top: 4px solid #0e0e0e ;
+position: relative;
 }
 
 
@@ -222,10 +244,75 @@ border-top: 4px solid #0e0e0e ;
 
 .footer-image{
 display: inline;
-margin: 10px;
+margin: 10pwhite;
+
 }
 
 
 
+   
+a:link{
+text-decoration: none;
+color: #FFF;
+}
+.get-in-touch{
+    color: #FFF;
+    font-size: 1.6em;
+    font-family:"Open Sans", Arial, sans-serif;
+  background-color: #0088cc;
+  position: absolute;
+  display: inline-block;
+  top: -20px;
+  left:110px;
+  text-transform: capitalize;
+  padding: 1px 7px;
 
 
+}
+
+
+.footer-header{
+    font-size: 1.8em;
+    font-weight: 200;
+    
+   margin-bottom: 20px;
+
+}
+
+.new-letter-text{
+    color: grey;
+    line-height: 20px;
+}
+
+.news-letter-btn{
+padding: 5px;
+width: 250px;
+border-radius: 5px;
+}
+
+.news-btn{
+padding: 3px 10px;
+border-radius: 5px;
+margin-left: -3px;
+}
+
+.contact-text{
+    line-height: 2;
+}
+
+.useful-links:links{
+text-decoration: none;
+    color: #FFF;
+}
+
+.container{
+
+max-width: 100000px;
+
+}
+
+footer .container{
+    background-color: #0088cc;
+    padding: 50px;
+
+}
