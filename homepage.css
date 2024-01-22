@@ -144,7 +144,28 @@ padding: 80px;
 
     position: relative;
 }
+.month{
 
+    background-color: #0088cc;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.07) inset;
+    color: #FFF;
+    font-size: 0.9em;
+    padding: 0 10px 2px;
+    text-align: center;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.year{
+
+    background: #F4F4F4;
+    border-radius: 2px 2px 0 0;
+    color: #0088cc;
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    font-weight: bold;
+    padding: 5px;
+}
 
  .article-pictures{
     display: flex;
@@ -167,7 +188,14 @@ font-family: "Open Sans", Arial, sans-serif;
 position: absolute;
 top: 0;
 left: 200px;
+   
 
+
+
+    
+
+
+}
 
 }
 
