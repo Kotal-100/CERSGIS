@@ -71,7 +71,11 @@ background-color: #0088cc;
     cursor: pointer;
 }
 
+a:any-link{
 
+
+color: #0088cc;
+}
 
 
 
@@ -262,7 +266,7 @@ padding: 80px;
     border-top: 2px solid lightgray;
     padding-top: 20px;
 box-sizing: border-box;
-   
+width: 1200px;
   
 }
 
