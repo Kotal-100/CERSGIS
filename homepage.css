@@ -312,13 +312,21 @@ footer::before{
   }
 
 footer{
-   background-color:#212529 ;
-color:white;
-padding:60px;
-margin-top: 40px;
-border-top: 4px solid #0e0e0e ;
-position: relative;
+
+    background-color:#121111 ;
+    color:white;
+    padding:60px;
+    margin-top: 40px;
+    border-top: 4px solid ;
+    position: relative;
+
+
+
+
+
 }
+
+
 
 
 
@@ -335,7 +343,7 @@ position: relative;
 
 .footer-image{
 display: inline;
-margin: 10pwhite;
+margin: 10px white;
 
 }
 
@@ -404,7 +412,7 @@ text-decoration: none;
 
 summary{
     padding: 50px;
-background-color:#1a1919; ;
+background-color:#0e0e0e;
 
 
 }
