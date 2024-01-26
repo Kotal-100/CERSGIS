@@ -302,7 +302,7 @@ footer::before{
   border-top: 16px solid transparent;
   display: block;
   width: 7px;
-  left: 101px;
+  left: 210px;
   top: -15px;
   height: 0;
   
@@ -315,15 +315,11 @@ footer{
 
     background-color:#121111 ;
     color:white;
-    padding:60px;
     margin-top: 40px;
     border-top: 4px solid ;
     position: relative;
-
-
-
-
-
+    padding-top: 100px;
+    
 }
 
 
@@ -335,7 +331,7 @@ footer{
 .footer{
     display: flex;
     gap: 30px;
-    align-content: center;
+    justify-content: center;
 
 
 
@@ -362,7 +358,7 @@ color: #FFF;
   position: absolute;
   display: inline-block;
   top: -18px;
-  left:111px;
+  left:220px;
   text-transform: capitalize;
   padding: 1px 7px;
 
@@ -371,7 +367,7 @@ color: #FFF;
 
 
 .footer-header{
-    font-size: 1.8em;
+    font-size: 1.8em;  
     font-weight: 200;
     
    margin-bottom: 20px;
@@ -426,22 +422,27 @@ background-color:#0e0e0e;
 
     color: #FFF;
 }
-.summary-forum{
+.last-page{
 
     display: flex;
     gap: 40px;
 align-items: center;
 justify-content: start;
+background-color: #010101;
+padding-top: 60px;
+margin-top: 30px;
+padding-bottom: 30px;
 }
 
-.summary-image{
-margin-left: 40px;
+.last-page-image{
+margin-left: 190px;
 
 
 }
 
-.summary-logo{
+.last-page-logo{
  
 float: left;
 margin-left: 500px;
+
 }
