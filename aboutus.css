@@ -175,6 +175,14 @@ color: gray;
 
             }
             
+            .box-message{
+color: #121111;
+font-size: x-large;
+
+
+
+            }
+
             * {
                 box-sizing: border-box;
             }
@@ -207,7 +215,7 @@ color: gray;
                 width: 33%;
                 padding:20px;
                 text-align: center; 
-                border:10px solid #9a9696;;
+                border:15px solid rgba(0, 0, 0, .06);;
                color:grey;
                 height: 250px;
                 background-color: white;
@@ -220,10 +228,12 @@ color: gray;
 .article-head{
     margin: 40px;
     text-align: center;
-   
-    
 }
-.words{
+
+.article-button {
+    margin-left: 200px;
+}
+.words, .collapse{
     color: grey;
     width: 1000px;
     text-align: left;
@@ -231,21 +241,28 @@ color: gray;
 }
 
 
-            .back{
-                
-                background-color: #0088cc;
-                border: 5px solid blue;              border-right: 10px solid #005580;
-              border-top: 16px solid transparent;
-              display: block;
-              width: 7px;
-              /* left: 0;
-              top: 0; */
-              height: 0;
-              
-              
-              /* position: absolute; */
-              
-              }
+
+
+
+
+
+footer::before{
+content: "";
+    border-right: 10px solid #005580;
+    border-top: 16px solid transparent;
+    display: block;
+    width: 7px;
+    left: 228px;
+    top: -15px;
+    height: 0;
+    
+    
+    position: absolute;
+    
+}
+
+
+           
             
             footer{
             
