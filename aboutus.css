@@ -90,44 +90,27 @@
                margin-top: 20px;
             } 
    
-
+/* section css features */
             .section{
-background-color: black;
+background-color: #171717;
 color: aliceblue;
 border-top:5px solid #384045; ;
 border-bottom: 5px solid #CCC;
     min-height: 50px;
-    padding: 40px 0;
+    padding: 30px 0;
     position: relative;
     text-align: left;
     line-height: 28px;
 position: relative;
  
-    
 }
-
-
-
-.article-border{
-    
-width: 270px;
-    border-top: 5px solid #0088cc;
-    margin-bottom: 10px;
-   position: absolute;
-   top: 245px;
-   left: 230px;
-}
-
-.select{
-    background-color: #0e6efd ;
-    color: #f1f1f1;
-    border: none;
-}
-
 .section-head{
-margin: 0px;
+    display: flex;
+   gap: 10px;
+margin-bottom: 10px;
 padding-left: 240px;
     color: grey;
+    font-size:smaller ;
 }
 
 
@@ -142,17 +125,97 @@ padding-left: 240px;
 
     .section a:link{
 text-decoration: none;
-
-
-
-    }
+}
 
     .section a:hover{
         text-decoration: underline;
         
-        
-            }
+        }
 
+
+/* article css features */
+.article-border{
+    
+width: 270px;
+    border-top: 5px solid #0088cc;
+    margin-bottom: 10px;
+   position: absolute;
+   top: 235px;
+   left: 230px;
+}
+
+.words, .collapse{
+    color: grey;
+    width: 1000px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.article-head{
+    margin: 40px;
+    text-align: center;
+}
+
+
+.article-button {
+    margin-left: 200px;
+}
+
+
+
+
+.select{
+    background-color: #0e6efd ;
+    color: #f1f1f1;
+    border: none;
+}
+
+
+
+/* box css features */
+
+.box{
+    border-top: 5px solid #f1f1f1;
+        background-color: #f7f7f7;;
+        padding: 80px;
+        display: flex;
+        margin-top: 40px;
+}
+
+.box-flexing {
+
+    display: flex;
+    gap: 20px;
+  
+}
+
+
+.box-content { 
+
+    background-image: url("assets/image/custom.jpeg" );
+    background-size: cover;
+background-position: center;
+    width: 33%;
+    padding:20px;
+    text-align: center; 
+    border:15px solid rgba(0, 0, 0, .06);;
+   color:grey;
+    height: 260px;
+    background-color: white;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+.box-message{
+    color: #121111;
+    font-size: x-large;
+    
+    }
+
+
+
+/* middle css features */
 
 .middle{
   line-height: 5;
@@ -165,86 +228,10 @@ font-size: 13px;
 color: gray;
 
             }
-
-           .dont{
-            border-top: 5px solid #f1f1f1;
-                background-color: #f7f7f7;;
-                padding: 80px;
-                display: flex;
-                margin-top: 40px;
-
-            }
-            
-            .box-message{
-color: #121111;
-font-size: x-large;
-
-
-
-            }
-
-            * {
-                box-sizing: border-box;
-            }
-            
-            .column {
       
-               
-              
-                display: flex;
-                gap: 20px;
-               
-              
-            }
-            
-            .row {
-                margin: 0 -5px;
-            }
-            
-            .row::after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            
-            .ten {
            
-                background-image: url("assets/image/custom.jpeg" );
-                background-size: cover;
-                background-position: center;
-                width: 33%;
-                padding:20px;
-                text-align: center; 
-                border:15px solid rgba(0, 0, 0, .06);;
-               color:grey;
-                height: 250px;
-                background-color: white;
-                font-size: 14px;
-                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-                background-color: white opacity;
-            }
 
-
-.article-head{
-    margin: 40px;
-    text-align: center;
-}
-
-.article-button {
-    margin-left: 200px;
-}
-.words, .collapse{
-    color: grey;
-    width: 1000px;
-    text-align: left;
-    margin-left: 200px;
-}
-
-
-
-
-
-
+/* footer css features */
 
 footer::before{
 content: "";
@@ -255,49 +242,30 @@ content: "";
     left: 228px;
     top: -15px;
     height: 0;
-    
-    
-    position: absolute;
-    
+    position: absolute; 
 }
 
+footer{
 
-           
-            
-            footer{
-            
-                background-color:#121111 ;
-                color:white;
-                margin-top: 40px;
-                border-top: 4px solid ;
-                position: relative;
-                padding-top: 100px;
+background-color:#121111 ;
+color:white;
+margin-top: 40px;
+border-top: 4px solid ;
+position: relative;
+padding-top: 100px;
                
             }
             
             
+.footer{
+
+display: flex;
+gap: 30px;
+justify-content: center;
+
+}
             
-            
-            
-            
-            
-            .footer{
-                display: flex;
-                gap: 30px;
-                justify-content: center;
-            
-            
-            
-            }
-            
-            .footer-image{
-            display: inline;
-            margin: 10px white;
-            
-            }
-            
-            p{margin: 0;}
-            
+
                
             a:link{
             text-decoration: none;
