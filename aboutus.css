@@ -20,8 +20,7 @@
         
         
         }
-    
-
+       
         .nav-button button{
             color:#0388cc;
             padding: 10px 20px;
@@ -72,14 +71,16 @@
             
             }
             
-           .article-readmore-btn{
-            padding:5px;
-            border-radius: 4px;
-            width: 140px;
-            background-color: #0088cc;
-            color: #f1f1f1;
-            display: inline-block;
-           }
+
+
+             .img-cersgis{
+                position: absolute;
+                top: -50px;;
+                left:250px ; 
+             }
+
+
+
 
            
             
@@ -88,7 +89,7 @@
                height:300% ;
                margin-top: 20px;
             } 
-    
+   
 
             .section{
 background-color: black;
@@ -100,8 +101,27 @@ border-bottom: 5px solid #CCC;
     position: relative;
     text-align: left;
     line-height: 28px;
-   
+position: relative;
+ 
     
+}
+
+
+
+.article-border{
+    
+width: 270px;
+    border-top: 5px solid #0088cc;
+    margin-bottom: 10px;
+   position: absolute;
+   top: 245px;
+   left: 230px;
+}
+
+.select{
+    background-color: #0e6efd ;
+    color: #f1f1f1;
+    border: none;
 }
 
 .section-head{
@@ -151,6 +171,7 @@ color: gray;
                 background-color: #f7f7f7;;
                 padding: 80px;
                 display: flex;
+                margin-top: 40px;
 
             }
             
@@ -195,19 +216,30 @@ color: gray;
                 background-color: white opacity;
             }
 
-t
+
+.article-head{
+    margin: 40px;
+    text-align: center;
+   
+    
+}
+.words{
+    color: grey;
+    width: 1000px;
+    text-align: left;
+    margin-left: 200px;
+}
 
 
-
-
-            footer::before{
-                content: "";
-              border-right: 10px solid #005580;
+            .back{
+                
+                background-color: #0088cc;
+                border: 5px solid blue;              border-right: 10px solid #005580;
               border-top: 16px solid transparent;
               display: block;
               width: 7px;
-              left: 210px;
-              top: -15px;
+              /* left: 0;
+              top: 0; */
               height: 0;
               
               
@@ -223,7 +255,7 @@ t
                 border-top: 4px solid ;
                 position: relative;
                 padding-top: 100px;
-                
+               
             }
             
             
@@ -254,6 +286,7 @@ t
             text-decoration: none;
             color: #FFF;
             }
+
             .get-in-touch{
                 color: #FFF;
                 font-size: 1.6em;
