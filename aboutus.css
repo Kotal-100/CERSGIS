@@ -118,7 +118,7 @@ nav {
   color: grey;
   width: 1000px;
   text-align: left;
-  margin-left: 200px;
+  margin-left: 240px;
 }
 
 .article-head {
@@ -127,7 +127,7 @@ nav {
 }
 
 .article-button {
-  margin-left: 200px;
+  margin-left: 240px;
 }
 
 .select {
@@ -141,14 +141,16 @@ nav {
 .box {
   border-top: 5px solid #f1f1f1;
   background-color: #f7f7f7;
-  padding: 80px;
-  display: flex;
+  padding: 40px;
+ 
+   
   margin-top: 40px;
 }
 
 .box-flexing {
   display: flex;
   gap: 20px;
+ 
 }
 
 .box-content {
@@ -156,19 +158,59 @@ nav {
   background-size: cover;
   background-position: center;
   width: 33%;
-  padding: 20px;
   text-align: center;
   border: 15px solid rgba(0, 0, 0, 0.06);
   color: grey;
-  height: 260px;
-  background-color: white;
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
+
+
+.mission{
+    background-color: rgba(255, 255, 255, 0.889);
+    padding: 80px;
+}
+
+
+.vision{
+    background-color: rgba(255, 255, 255, 0.889);
+  
+
+
+
+padding: 112px;
+
+}
+
+
+
+
+.why{
+    background-color: rgba(255, 255, 255, 0.889);
+  
+
+
+
+padding: 80px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 .box-message {
   color: #121111;
   font-size: x-large;
+
 }
 
 /* middle css features */
