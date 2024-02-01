@@ -115,17 +115,27 @@ ul {
     left: 230px;
   }
 
+form{
+position: relative;
 
+}
 
 
   .form-flex{
 display: flex;
 gap: 20px;
-margin-top: 40px;
 margin-left: 250px;
 align-items: center;
+color: grey;
 
   }
+
+.form-head{
+font-size: 34px;
+position: absolute;
+top:70px;
+left: 250px;
+}
 
 .name{
 
@@ -170,27 +180,28 @@ align-items: center;
  
 .office{
 
-    color: grey;
+    
     margin-top: 50px;
     line-height: 3;
 }
 
 
-
+.it{color: grey;}
 
 .message-flex{
 display: flex;
 gap: 20px;
 justify-content: ;
 align-items: center;
-margin-left: 250px;
+margin-left: 220px;
+color: grey;
 
 }
 
 .textarea{
 
    
-    width: 500px;
+    width: 550px;
     height: 150px;
     padding: 6px 12px;
     font-size: 14px;
@@ -211,7 +222,7 @@ margin-left: 250px;
 
 .message-btn{
 
-    margin-left: 250px;
+    margin-left: 220px;
     color: #ffffff;
     background-color: #0088cc;
     border-color: #0088cc #0088cc #006699;
