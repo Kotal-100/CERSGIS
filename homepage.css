@@ -5,6 +5,11 @@ box-sizing: border-box;
 }
 
 
+.container{
+    width: px;
+    margin: ;
+    
+}
 ul{
     list-style-type: none;
 }
