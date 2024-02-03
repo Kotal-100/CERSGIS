@@ -93,6 +93,17 @@ nav {
   font-size: smaller;
 }
 
+.bar{
+  background-color: #0388cc;
+  border: none;
+  color: white;
+  padding: 8px 13px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
 .section-head1 {
   margin: 0px;
   padding-left: 240px;
@@ -233,6 +244,7 @@ footer {
   display: flex;
   gap: 30px;
   justify-content: center;
+  font-size: small;
 }
 
 a:link {
@@ -257,11 +269,13 @@ a:link {
   font-size: 1.8em;
   font-weight: 200;
   margin-bottom: 20px;
+  margin-left: -15px;
 }
 
 .new-letter-text {
   color: grey;
   line-height: 20px;
+  
 }
 
 .news-letter-btn {
@@ -330,14 +344,25 @@ margin-left: 0;
 
 }
 
+
+.bar{
+  background-color: #0388cc;
+  border: none;
+  color: white;
+  padding: 8px 13px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 13px;
+}
 .section-head{
 gap: 10px;
 padding-left: 20px;
-
+font-size: 10px;
 }
 
 .section-head1{
-
+  font-size: 20px;
   padding-left: 10px;
 }
 
@@ -353,9 +378,9 @@ padding: 0;
   padding: 0;
 }
 
- .footer-header.ps-5 {
+.footer h1.footer-header.ps-5 {
 
-  padding:0 ;
+  padding:20px !important;
 }
 
 
@@ -392,6 +417,12 @@ position: relative;
 
 
 
+
+
+.office{
+font-size: smaller;
+
+}
 
 
 }
