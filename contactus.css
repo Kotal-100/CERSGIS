@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 
-.container{
-width: 700px;
-margin:0 auto;
-}
+
 
 
 ul {
@@ -541,7 +538,7 @@ padding-left: 0px;
 font-size: 12px;
 margin-left: 20px;
 line-height: 10px;
-width: 3000px;
+
 }
 
 .news-btns{
@@ -600,7 +597,7 @@ footer::before{
 
 .last-page-logo {
 float: none;
-  margin-left: 0px;
+  margin-left: 10px;
 }
 
 .last-page{
@@ -610,10 +607,14 @@ display: block;
   }
 
   .last-page-image{
-    font-size: 14px;
+    font-size: 1px;
+    width: 200px;
   }
 
+  .copyright{
 
+    margin-left: 10px;
+  }
 
 
 
